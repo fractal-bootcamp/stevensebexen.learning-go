@@ -1,0 +1,1 @@
+Just learning how to use Go for the sake of the assignments today.
