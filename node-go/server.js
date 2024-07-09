@@ -19,7 +19,7 @@ const server = http.createServer((req,res) => {
         return;
       }
 
-      res.setHeader('Content-Type', 'application/json').writeHead(200).end(stdout);
+      res.writeHead(200, {'Content-Type': 'application/json'}).end(stdout);
     });
 
   } else { 
