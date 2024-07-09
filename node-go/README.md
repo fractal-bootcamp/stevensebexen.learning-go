@@ -1,0 +1,1 @@
+Be sure to build the child process with `make` before running the server with `npm start`.
