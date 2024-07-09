@@ -15,7 +15,7 @@ const server = http.createServer((req,res) => {
     const process = execFile('./child', {encoding: 'utf-8'}, (error, stdout, stderr) => {
       if (error) {
         console.error('Child process error:', stderr);
-        res.writeHead(500).end();
+        res.writeHead(500).end('Internal Server Error');
         return;
       }
 
